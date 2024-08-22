@@ -37,10 +37,10 @@ This project uses machine learning, specifically K-means clustering, to identify
 	- One-shot wonders
 	- High-rollers
 
-![Win rate](Images/win_rate) ![Games until first bust](Images/games_until_first_bust)
+![Win rate](Images/win_rate.png) ![Games until first bust](Images/games_until_first_bust.png)
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
-![Win rate vs Games per day](Images/wr_gpd)
+![Win rate vs Games per day](Images/wr_gpd.png)
 
 
 ## Dependencies
