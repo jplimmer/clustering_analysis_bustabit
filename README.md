@@ -30,17 +30,17 @@ This project uses machine learning, specifically K-means clustering, to identify
  
 ## Clustering Analysis
 - 4 clusters: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
-[Elbow curve](Images/elbow_visualisation.png)
+![Elbow curve](Images/elbow_visualisation.png)
 - Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation.pdf)):
 	- Addicts
 	- Suckers
 	- One-shot wonders
 	- High-rollers
 
-[win_rate](Images/win_rate.png) [games_until_first_bust](Images/games_until_first_bust.png)
+![win_rate](Images/win_rate) ![games_until_first_bust](Images/games_until_first_bust)
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
-[wr_gpd](Images/wr_gpd.png)
+![wr_gpd](Images/wr_gpd)
 
 
 ## Dependencies
