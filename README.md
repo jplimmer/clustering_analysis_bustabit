@@ -29,8 +29,10 @@ This project uses machine learning, specifically K-means clustering, to identify
 ![Chart of cumulative explained variance per PC](Images/pca_plot.png)
  
 ## Clustering Analysis
-- 4 clusters: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
+- **4 clusters**: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
+
 ![Elbow curve](Images/elbow_visualisation.png)
+
 - Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation.pdf)):
 	- Addicts
 	- Suckers
