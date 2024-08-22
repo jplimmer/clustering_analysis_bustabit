@@ -26,6 +26,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 ## Principal Component Analysis
 - Principal Component Analysis was performed to see if the features could be condensed into categories with minimal loss of information, with the benefit of reducing multicollinearity.
 - Ultimately too many components were required to ensure limited information loss (i.e. an explained variance ratio >0.9), and so the analysis was performed without decomposition.
+- 
 ![Chart of cumulative explained variance per PC](Images/pca_plot.png)
  
 ## Clustering Analysis
@@ -42,6 +43,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 ![Win rate](Images/win_rate.png) ![Games until first bust](Images/games_until_first_bust.png)
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
+- 
 ![Win rate vs Games per day](Images/wr_gpd.png)
 
 
