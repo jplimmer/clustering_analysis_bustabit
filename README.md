@@ -40,7 +40,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 	- One-shot wonders
 	- High-rollers
 
-<img src="Images/win_rate.png" width="45%"> <img src="Images/games_until_first_bust.png" width="45%">
+<img src="Images/win_rate.png" width="45%"> <img src="Images/games_after_first_bust.png" width="45%">
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
 
@@ -55,5 +55,5 @@ This project uses machine learning, specifically K-means clustering, to identify
 	- K-means clustering
 - Pandas
 - Numpy
-- datetime
+- Datetime
 - Matplotlib & seaborn
