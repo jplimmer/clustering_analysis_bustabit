@@ -27,8 +27,10 @@ This project uses machine learning, specifically K-means clustering, to identify
 - Principal Component Analysis was performed to see if the features could be condensed into categories with minimal loss of information, with the benefit of reducing multicollinearity.
 - Ultimately too many components were required to ensure limited information loss (i.e. an explained variance ratio >0.9), and so the analysis was performed without decomposition.
  
-![Chart of cumulative explained variance per PC](Images/pca_plot.png | height=100px)
- 
+![Chart of cumulative explained variance per PC](Images/pca_plot.png)
+
+<img src="Images/pca_plot.png" width="50">
+
 ## Clustering Analysis
 - **4 clusters**: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
 
