@@ -34,17 +34,22 @@ This project uses machine learning, specifically K-means clustering, to identify
 
 <img src="Images/elbow_visualisation.png" width="70%">
 
-- Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation.pdf)):
-	- Addicts
-	- Suckers
-	- One-shot wonders
-	- High-rollers
+- Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation.pdf)).
+- The player types identified by clustering were labelled:
+	- **Addicts**
+	- **Suckers**
+	- **One-shot wonders**
+	- **High-rollers**
 
+_Example visualisations of key cluster characteristics:_
 <img src="Images/win_rate.png" width="45%"> <img src="Images/games_after_first_bust.png" width="45%">
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
 
 <img src="Images/wr_gpd.png" width="70%">
+
+
+Overall, this project provided an instructive example of how unsupervised machine learning can be used to categorise behavioral patterns otherwise difficult to extract from raw data.
 
 
 ## Dependencies
