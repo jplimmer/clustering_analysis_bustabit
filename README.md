@@ -29,7 +29,7 @@ This project uses machine learning, specifically K-means clustering, to identify
  
 ![Chart of cumulative explained variance per PC](Images/pca_plot.png)
 
-<img src="Images/pca_plot.png" width="50">
+<img src="Images/pca_plot.png" width="50%">
 
 ## Clustering Analysis
 - **4 clusters**: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
