@@ -17,7 +17,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 
 ## Feature Engineering
 - Since the data simply represent one player’s outcome in one game, the data were manipulated to engineer a range of numeric features per player, which could be used as inputs for machine learning models to discern patterns.
-- These features included totals and averages for games and sessions played, wins, bet size, as well as number of games played before and after the first bust per day, and average cash-out and bust multipliers.
+- These features included totals and averages for games and sessions played, wins and bet size, as well as number of games played before and after the first bust per day, and average cash-out and bust multipliers.
 
 ## Data Cleaning & Preprocessing
 - Data cleaning: null values are an inherent feature of the data, as some players never lost and others never won, and were imputed as zero to capture this information.
@@ -26,8 +26,8 @@ This project uses machine learning, specifically K-means clustering, to identify
 ## Principal Component Analysis
 - Principal Component Analysis was performed to see if the features could be condensed into categories with minimal loss of information, with the benefit of reducing multicollinearity.
 - Ultimately too many components were required to ensure limited information loss (i.e. an explained variance ratio >0.9), and so the analysis was performed without decomposition.
-- 
-![Chart of cumulative explained variance per PC](Images/pca_plot.png)
+ 
+![Chart of cumulative explained variance per PC](Images/pca_plot.png | height=100px)
  
 ## Clustering Analysis
 - **4 clusters**: evaluation of the sum-of-squared-errors (plotting an elbow curve) suggested the dataset of players could best be summarised by 4 categories.
@@ -43,7 +43,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 ![Win rate](Images/win_rate.png) ![Games until first bust](Images/games_until_first_bust.png)
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
-- 
+
 ![Win rate vs Games per day](Images/wr_gpd.png)
 
 
