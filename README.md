@@ -1,6 +1,6 @@
-# Categorisation of gambling styles using Machine Learning
+# Categorisation of gambling styles using Unsupervised Machine Learning
 
-This project uses machine learning, specifically K-means clustering, to identify betting patterns and categorise players by playing style in the online game Bustabit.
+This project uses unsupervised machine learning, specifically K-means clustering, to identify betting patterns and categorise players by playing style in the online game Bustabit.
 
 ## Contents
 1. [Data](#data)
