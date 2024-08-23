@@ -41,7 +41,8 @@ This project uses machine learning, specifically K-means clustering, to identify
 	- **One-shot wonders**
 	- **High-rollers**
 
-_Example visualisations of key cluster characteristics:_
+<sub>_Example visualisations of key cluster characteristics:_</sub>
+
 <img src="Images/win_rate.png" width="45%"> <img src="Images/games_after_first_bust.png" width="45%">
 
 - In contrast, identifying clear patterns without the use of clusters would be much more difficult, even between key features:
