@@ -34,7 +34,7 @@ This project uses machine learning, specifically K-means clustering, to identify
 
 <img src="Images/elbow_visualisation.png" width="70%">
 
-- Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation.pdf)).
+- Using simple visualisations to compare the clusters across different metrics provided clear insights into the distinct player types (see [presentation](bustabit_clustering_analysis_presentation_notes.pdf)).
 - The player types identified by clustering were labelled:
 	- **Addicts**
 	- **Suckers**
